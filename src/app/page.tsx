@@ -43,22 +43,22 @@ const P = {
 
 const PHOTOS = [
   {
-    src: "/photos/reading-time.svg",
+    src: "/photos/reading-time.jpg",
     alt: "Two children sitting together on a knit blanket, reading a picture book during story time",
     caption: "Story time and quiet moments",
   },
   {
-    src: "/photos/playroom.svg",
+    src: "/photos/playroom.jpg",
     alt: "Two children playing together at a low wooden table in a cozy playroom",
     caption: "Creative play at home",
   },
   {
-    src: "/photos/outdoors.svg",
+    src: "/photos/outdoors.jpg",
     alt: "Three children playing hide-and-seek around trees in the yard",
     caption: "Fresh air and gentle adventures",
   },
   {
-    src: "/photos/craft-table.svg",
+    src: "/photos/craft-table.jpg",
     alt: "Three children sitting on the grass with beads, play dough, fruit, and snacks",
     caption: "Simple crafts and snacks",
   },
@@ -280,7 +280,6 @@ export default function Home() {
                 className="group overflow-hidden rounded-2xl border border-[#98C8E0]/50 bg-[#EBF6FC] shadow-md transition-shadow hover:shadow-lg"
               >
                 <div className="relative aspect-[4/3] overflow-hidden bg-[#C8E8F5]">
-                  {/* Native img: gallery files are JPEG-in-SVG photos */}
                   <img
                     src={photo.src}
                     alt={photo.alt}

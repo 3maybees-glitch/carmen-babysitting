@@ -43,7 +43,7 @@ To change the placeholder everywhere in one place, edit:
 |------|--------|
 | Phone, flyer line, nav | `src/lib/site-config.ts` |
 | Page copy & sections | `src/app/page.tsx` |
-| Photo placeholders | Replace files in `public/photos/` and update `PHOTOS` in `page.tsx` |
+| Photos | JPEG files in `public/photos/` (`reading-time`, `playroom`, `outdoors`, `craft-table`); paths in `PHOTOS` in `page.tsx` |
 | Reference quotes | `REFERENCES` array in `src/app/page.tsx` |
 
 ## Stack
