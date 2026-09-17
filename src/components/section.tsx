@@ -6,13 +6,26 @@ type SectionProps = {
   className?: string;
   children: React.ReactNode;
   intro?: string;
+  /** Pastel band background (Tailwind class). */
+  bandClassName?: string;
 };
 
-export function Section({ id, title, intro, className, children }: SectionProps) {
+export function Section({
+  id,
+  title,
+  intro,
+  className,
+  bandClassName,
+  children,
+}: SectionProps) {
   return (
     <section
       id={id}
-      className={cn("scroll-mt-24 py-14 sm:py-16", className)}
+      className={cn(
+        "scroll-mt-24 py-14 sm:py-16",
+        bandClassName,
+        className,
+      )}
       aria-labelledby={`${id}-heading`}
     >
       <div className="mx-auto max-w-5xl px-4 sm:px-6">
@@ -24,7 +37,7 @@ export function Section({ id, title, intro, className, children }: SectionProps)
             {title}
           </h2>
           {intro ? (
-            <p className="mt-3 text-base leading-relaxed text-muted-foreground sm:text-lg">
+            <p className="mt-3 text-base leading-relaxed text-foreground/80 sm:text-lg">
               {intro}
             </p>
           ) : null}
