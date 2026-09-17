@@ -44,8 +44,8 @@ const P = {
 
 const PHOTOS = [
   {
-    src: "/photos/reading-time.svg",
-    alt: "Soft illustration placeholder for reading with children",
+    src: "/photos/reading-time.jpg",
+    alt: "Two children sitting together on a knit blanket, reading a picture book during story time",
     caption: "Story time and quiet moments",
   },
   {
