@@ -1,7 +1,10 @@
 import Link from "next/link";
 import {
   CalendarDays,
+  Church,
+  GraduationCap,
   Heart,
+  House,
   Phone,
   Sparkles,
   Users,
@@ -186,9 +189,63 @@ export default function Home() {
                   Many years with children
                 </CardTitle>
                 <CardDescription className="text-base leading-relaxed text-foreground/85">
-                  From school-age through teens, I&apos;ve spent many years
-                  working with children — in homes, church settings, and
-                  everyday family life. Your routines and values matter to me.
+                  I&apos;ve spent many years working with children — in homes,
+                  church settings, and everyday family life. Your routines and
+                  values matter to me.
+                </CardDescription>
+              </CardHeader>
+            </Card>
+          </div>
+        </Section>
+
+        <WaveDivider fill={P.cream} />
+
+        <Section
+          id="background"
+          title="A little of my story"
+          bandClassName="bg-[#FFF3E8]"
+          intro="Liberty University, years as a homeschool mom, and decades in church children's ministry have shaped how I care for kids today."
+        >
+          <div className="grid gap-5 sm:grid-cols-3">
+            <Card className="rounded-2xl border-[#E8C4A8]/60 bg-[#FFF8F0] shadow-md">
+              <CardHeader>
+                <div className="mb-2 flex size-10 items-center justify-center rounded-full bg-[#F0D4B8] text-[#6B4A32]">
+                  <GraduationCap className="size-5" aria-hidden />
+                </div>
+                <CardTitle className="font-heading text-xl">
+                  Liberty University graduate
+                </CardTitle>
+                <CardDescription className="text-base leading-relaxed text-foreground/85">
+                  I&apos;m a Liberty alum — glad to sit for families in alumni
+                  circles and the wider Lynchburg community.
+                </CardDescription>
+              </CardHeader>
+            </Card>
+            <Card className="rounded-2xl border-[#C8DCC8]/60 bg-[#F4FAF4] shadow-md">
+              <CardHeader>
+                <div className="mb-2 flex size-10 items-center justify-center rounded-full bg-[#C8E0C8] text-[#3A5A3A]">
+                  <House className="size-5" aria-hidden />
+                </div>
+                <CardTitle className="font-heading text-xl">
+                  Homeschool mom for 18 years
+                </CardTitle>
+                <CardDescription className="text-base leading-relaxed text-foreground/85">
+                  That season taught me patience, flexibility, and how to meet
+                  children where they are — at the kitchen table and in play.
+                </CardDescription>
+              </CardHeader>
+            </Card>
+            <Card className="rounded-2xl border-[#C8B8E0]/60 bg-[#F6F0FC] shadow-md">
+              <CardHeader>
+                <div className="mb-2 flex size-10 items-center justify-center rounded-full bg-[#D4C4EC] text-[#4A3A6B]">
+                  <Church className="size-5" aria-hidden />
+                </div>
+                <CardTitle className="font-heading text-xl">
+                  Church children&apos;s ministry
+                </CardTitle>
+                <CardDescription className="text-base leading-relaxed text-foreground/85">
+                  Over 20 years serving children at church — familiar with busy
+                  rooms, tender hearts, and care parents can trust.
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -231,14 +288,13 @@ export default function Home() {
           id="families"
           title="Who I sit for"
           bandClassName="bg-[#DDF0E8]"
-          intro="I'm open on ages and whether it's one child or more than one. We'll talk through what your kids need and what feels like a good fit."
+          intro="I'm happy to sit for one child or more than one. We'll talk through what your kids need and what feels like a good fit."
         >
           <div className="flex flex-col gap-4 sm:flex-row sm:items-start">
             <div className="flex size-14 shrink-0 items-center justify-center rounded-[1.25rem] bg-[#C8B8E8] text-[#4A3A6B] shadow-sm">
               <Users className="size-7" aria-hidden />
             </div>
             <ul className="list-inside list-disc space-y-2 text-base leading-relaxed text-foreground/85 marker:text-[#C97898] sm:text-lg">
-              <li>School-age children and older</li>
               <li>One child or siblings — happy to meet your whole crew</li>
               <li>
                 Church families, Liberty alumni, and hospital-connected friends
