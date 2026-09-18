@@ -10,6 +10,7 @@ export const FLYER_WEBSITE_LINE = `Website: ${PRODUCTION_HOST}`;
 
 export const NAV_ITEMS = [
   { href: "#about", label: "About" },
+  { href: "#background", label: "Background" },
   { href: "#availability", label: "Availability" },
   { href: "#families", label: "Who I sit for" },
   { href: "#rates", label: "Rates" },
