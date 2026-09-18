@@ -231,14 +231,13 @@ export default function Home() {
           id="families"
           title="Who I sit for"
           bandClassName="bg-[#DDF0E8]"
-          intro="I'm open on ages and whether it's one child or more than one. We'll talk through what your kids need and what feels like a good fit."
+          intro="I'm happy to sit for one child or more than one. We'll talk through what your kids need and what feels like a good fit."
         >
           <div className="flex flex-col gap-4 sm:flex-row sm:items-start">
             <div className="flex size-14 shrink-0 items-center justify-center rounded-[1.25rem] bg-[#C8B8E8] text-[#4A3A6B] shadow-sm">
               <Users className="size-7" aria-hidden />
             </div>
             <ul className="list-inside list-disc space-y-2 text-base leading-relaxed text-foreground/85 marker:text-[#C97898] sm:text-lg">
-              <li>School-age children and older</li>
               <li>One child or siblings — happy to meet your whole crew</li>
               <li>
                 Church families, Liberty alumni, and hospital-connected friends
