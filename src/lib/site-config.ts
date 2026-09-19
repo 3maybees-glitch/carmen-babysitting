@@ -1,4 +1,4 @@
-export const PRODUCTION_HOST = "carmen-babysitting.vercel.app";
+export const PRODUCTION_HOST = "carmen-childcare.vercel.app";
 
 export const PRODUCTION_URL = `https://${PRODUCTION_HOST}`;
 
